@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.content {
+  padding-top: 42px;
+  padding-bottom: 25px;
+  /*************新闻信息**************/ }
+  .content .xinwen {
+    font-size: 30px;
+    color: #ff6b08;
+    padding-bottom: 10px; }
+  .content .bottom {
+    padding-bottom: 28px; }
+    .content .bottom .img-thumbnail {
+      position: relative;
+      overflow: hidden;
+      padding: 0; }
+      .content .bottom .img-thumbnail img {
+        opacity: .85; }
+      .content .bottom .img-thumbnail .zhezhao {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 0 15px;
+        -webkit-transition: all 800ms;
+        transition: all 800ms; }
+        .content .bottom .img-thumbnail .zhezhao .font {
+          display: block;
+          line-height: 40px;
+          margin-bottom: 0px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+      .content .bottom .img-thumbnail:hover {
+        opacity: .85; }
+        .content .bottom .img-thumbnail:hover .zhezhao {
+          bottom: 0;
+          -webkit-transition: all 800ms;
+          transition: all 800ms; }
+  .content .xinxi {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    border-bottom: 1px dashed #d4d4d4;
+    /*************右侧**************/ }
+    .content .xinxi .kuang {
+      width: 100%;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 2px solid #d4d4d4;
+      padding: 5px; }
+    .content .xinxi .title {
+      display: inline-block;
+      font-size: 18px;
+      color: #666666;
+      text-decoration: none;
+      padding-bottom: 10px; }
+      .content .xinxi .title:hover {
+        color: #ff6b08; }
+    .content .xinxi .juli {
+      padding-right: 15px;
+      padding-bottom: 20px;
+      padding-top: 10px; }
+    .content .xinxi .time {
+      line-height: 30px;
+      font-size: 14px;
+      color: #2a2a2a;
+      margin-bottom: 0px; }
+    .content .xinxi .main {
+      font-size: 14px;
+      color: #2a2a2a;
+      line-height: 30px;
+      text-align: justify; }
+    .content .xinxi input[type="button"] {
+      width: 96px;
+      font-size: 14px;
+      height: 30px;
+      border: 1px solid #ff6900;
+      color: #ff6900;
+      background: none;
+      border-radius: 30px;
+      margin: 15px; }
+      .content .xinxi input[type="button"]:hover {
+        color: #fff;
+        background: #ff6900; }
+  .content .fenyeqi {
+    margin-top: 20px;
+    text-align: center; }
+  .content .pagination > li > a, .content .pagination > li > span {
+    color: #2a2a2a;
+    font-size: 12px; }
+  .content .pagination > li > a:hover, .content .pagination > li > span:hover {
+    background: #e34637;
+    color: #fff; }
+  .content .pagination > li > a:hover, .content .pagination > li > .active_1 {
+    background: #e34637;
+    color: #fff; }
+
+@media (max-width: 767px) {
+  .jinaju {
+    padding: 15px 30px; } }

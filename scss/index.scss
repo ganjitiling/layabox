@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+section {
+    width: 100%;
+    .tu {
+        background: #2b80d9;
+        text-align: center;
+    }
+    /***********引擎***********/
+    .yinqing {
+        background: #fbfaf7;
+        padding-top: 105px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #eaeaee;
+        .shang_juli {
+            margin-top: 35px;
+        }
+        .shang{
+            padding-top: 15px;
+        }
+        .font_yq {
+            font-size: 48px;
+            color: #0078d7;
+            font-weight: bold;
+        }
+        .font_js {
+            font-size: 30px;
+            color: #666666;
+        }
+        //图
+        .tu{
+            width: 64px;
+            height: 64px;
+            border-radius: 5px;
+        }
+        .yq {
+            font-size: 19px;
+            color: #333333;
+        }
+        .yq_js {
+            font-size: 14px;
+            color: #666666;
+        }
+        .xinxi {
+            margin-top: 80px;
+        }
+        .bottom{
+            margin-bottom: 30px;
+        }
+        .yq_01{
+            background: url(../images/yq_01.png);
+            transition: all 800ms ease-in-out;
+            &:hover{
+                background: url(../images/yq_g_01.png);
+                transform: rotate(360deg);
+                transition: all 800ms ease-in-out;
+            }
+        }
+        .yq_02{
+            background: url(../images/yq_02.png);
+            transition: all 800ms ease-in-out;
+            &:hover{
+                background: url(../images/yq_g_02.png);
+                transform: rotate(360deg);
+                transition: all 800ms ease-in-out;
+            }
+        }
+        .yq_03{
+            background: url(../images/yq_03.png);
+            transition: all 800ms ease-in-out;
+            &:hover{
+                background: url(../images/yq_g_03.png);
+                transform: rotate(360deg);
+                transition: all 800ms ease-in-out;
+            }
+        }
+        .yq_04{
+            background: url(../images/yq_04.png);
+            transition: all 800ms ease-in-out;
+            &:hover{
+                background: url(../images/yq_g_04.png);
+                transform: rotate(360deg);
+                transition: all 800ms ease-in-out;
+            }
+        }
+    }
+    /***********优势***********/
+    .youshi {
+        background: #fff;
+        padding-top: 112px;
+        padding-bottom: 110px;
+        .font_youshi {
+            font-size: 48px;
+            color: #8fc31f;
+            font-weight: bold;
+        }
+        .top{
+            margin-top: 60px;
+        }
+        //说明
+        .explain{
+            padding-top: 30px;
+            li{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                .yuan{
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    float: left;
+                    margin: 0 10px;
+                }
+                .ys_01{
+                    background: url(../images/ys_01.png) no-repeat ;
+                    transition: all 800ms ease-out;
+                    &:hover{
+                        transform: rotate(-360deg);
+                        transition: all 800ms ease-in;
+                    }
+                }
+                .ys_02{
+                    background: url(../images/ys_02.png) no-repeat ;
+                    transition: all 800ms ease-out;
+                    &:hover{
+                        transform: rotate(360deg);
+                        transition: all 800ms ease-in;
+                    }
+                }
+                .ys_03{
+                    background: url(../images/ys_03.png) no-repeat ;
+                    transition: all 800ms ease-out;
+                    &:hover{
+                        transform: rotate(-360deg);
+                        transition: all 800ms ease-in;
+                    }
+                }
+                .ys_04{
+                    background: url(../images/ys_04.png) no-repeat ;
+                    transition: all 800ms ease-out;
+                    &:hover{
+                        transform: rotate(360deg);
+                        transition: all 800ms ease-in;
+                    }
+                }
+                .font_16 {
+                    font-size: 16px;
+                    color: #666666;
+                    margin-bottom: 0px;
+                    line-height: 54px;
+                }
+            }
+        }
+    }
+    /***********家族***********/
+    .jiazu {
+        background: #0079d7;
+        padding-top: 115px;
+        padding-bottom: 66px;
+        .title {
+            font-size: 48px;
+            color: #fff;
+            text-align: center;
+        }
+        .content{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .ti {
+            font-size: 32px;
+            color: #FFF;
+        }
+        .shuoming {
+            font-size: 14px;
+            color: #fff;
+        }
+        .jz_tu {
+            width: 64px;
+            height: 64px;
+            overflow: hidden;
+        }
+        .gao{
+            height: 100px;
+        }
+        .tu_01{
+            background: url(../images/jz_01.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .tu_02{
+            background: url(../images/jz_02.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .tu_03{
+            background: url(../images/jz_03.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .tu_04{
+            background: url(../images/jz_04.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .tu_05{
+            background: url(../images/jz_05.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .tu_06{
+            background: url(../images/jz_06.png) no-repeat center;
+            transition: all 800ms ease-out;
+            &:hover{
+                transform: rotateY(180deg);
+                transition: all 800ms ease-in;
+            }
+        }
+        .bottom {
+            padding-bottom: 30px;
+        }
+    }
+    /***********精彩游戏***********/
+    .game {
+        padding-top: 85px;
+        padding-bottom: 85px;
+        .font_yx {
+            font-size: 34px;
+        }
+        .gengduo {
+            font-size: 14px;
+            color: #000;
+            padding-top: 8px;
+            display: inline-block;
+            &:hover {
+                color: red;
+                text-decoration: none;
+            }
+        }
+        .juli_s {
+            padding-top: 20px;
+        }
+        .juli_x {
+            padding-right: 20px;
+        }
+        .media {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            width: 100%;
+            margin: 0 auto;
+            video {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+        /**游戏图标**/
+        .game_icon{
+            width: 100%;
+            padding-top: 15px;
+            text-align: center;
+            .tu{
+                width: 72px;
+                height: 72px;
+                margin: 5px auto;
+            }
+            .name{
+                font-size: 14px;
+                color: #2a2a2a;
+            }
+        }
+    }
+    /***********合作***********/
+    .hezuo {
+        background: #f4f4f4;
+        padding-top: 40px;
+        padding-bottom: 46px;
+        .font_hz{
+            font-size: 30px;
+            color: #2a2a2a;
+            #zhushi{
+                font-size: 12px;
+                color: #777777;
+            }
+        }
+        .juli{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 15px;
+        }
+    }
+}
+@media(max-width:768px){
+    section .game .font_yx{
+        font-size: 20px;
+    }
+    .gengduo {
+        padding-top: 2px;
+    }
+    .top{
+        padding-left: 8.33333333%;
+        padding-right: 8.33333333%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px){
+    .left{
+        margin-left: 8.33333333%;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px){
+    section .game .game_icon{
+        padding-top: 2px;
+    }
+    
+}

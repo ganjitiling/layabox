@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/****公共标题字体*****/
+.shuzi {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 0 14px;
+  border-radius: 2px;
+  background-color: #ffffff; }
+
+.title {
+  margin-left: 10px;
+  font-size: 48px;
+  color: #fff; }
+
+.main {
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  padding-bottom: 5px; }
+
+/***************第一个绿色************/
+.one {
+  background: #8bc01f;
+  padding-top: 67px;
+  padding-bottom: 60px; }
+  .one .se_1 {
+    color: #8BC01F; }
+  .one .title_1 {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 35px; }
+  .one .xiazai {
+    width: 100px;
+    height: 34px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #8BC01F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #E8F2D2; }
+    .one .xiazai:hover {
+      background: #fff; }
+
+/***************第二个蓝色************/
+.two {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #3393df; }
+  .two .bottom {
+    margin-bottom: 20px;
+    margin-left: 0px; }
+  .two .top {
+    padding-top: 100px; }
+  .two .se_2 {
+    color: #3393df; }
+  .two .title_2 {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px; }
+  .two .juli {
+    text-align: justify;
+    padding-right: 35px; }
+
+/***************第三个白色************/
+.three {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background: #fff; }
+
+.se_3 {
+  color: #fff;
+  background: #3393df; }
+
+.blue {
+  color: #3393df; }
+
+.font_title {
+  font-size: 18px;
+  color: #5d5d5d;
+  padding-top: 22px; }
+
+.font_emphasis {
+  font-size: 18px;
+  color: #3393df;
+  padding-top: 10px; }
+
+.font_main {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 28px;
+  text-indent: 2em;
+  height: 56px;
+  width: 90%;
+  text-align: justify; }
+
+.Laya_tu {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto; }
+
+.zuoyi {
+  margin-left: -30px; }
+
+/***************第四个白色************/
+.four {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f7f7f7; }
+  .four .left {
+    padding-left: 70px; }
+  .four .Laya_tu2 {
+    width: 170px;
+    height: 170px;
+    margin: 20px auto; }

@@ -1,0 +1,126 @@
+@charset "utf-8";
+section{
+    width: 100%;
+    /***********大图***********/
+    .datu{
+        width: 100%;
+    }
+    /***********白色区域***********/
+    .white{
+       width: 100%;
+       padding-top: 90px;
+       padding-bottom: 60px;
+       padding-left: 15px;
+       .font_gongsi{
+          font-size: 36px;
+          color: #2a2a2a;
+       }
+       .title{
+           font-size: 21px;
+           color: #2a2a2a;
+        }
+       .main{
+           font-size: 14px;
+           color: #2a2a2a;
+           text-indent: 2em;
+           line-height: 28px;
+       }
+    }
+    /***********绿色区域***********/
+   .green{
+       background: #8cc11f;
+       padding-top: 115px;
+       padding-bottom: 80px;
+       .zhaoping{
+           font-size: 36px;
+           color: #fff;
+        }
+        .main_01{
+           font-size: 14px;
+           line-height: 28px;
+           color: #fff;
+        }
+        .mail{
+            width: 219px;
+            height: 48px;
+            border-radius: 5px;
+            background: #fff;
+            color: #8cc11f;
+            font-size: 24px;
+            margin-bottom: 10px;
+            &:hover{
+                background-color: #e6e6e6;
+                border-color: #adadad;
+            }
+        }
+    }
+    /***********招聘区域***********/
+   .zhaoping{
+       width: 100%;
+       padding-top: 55px;
+        .left{
+          padding-left: 15px; 
+        }
+        .bottom{
+            padding-bottom: 55px;
+        }
+       .position{
+           font-size: 26px;
+           color: #8cc11f;
+           margin-bottom: 30px;
+       }
+       .miaoshu{
+           font-size: 18px;
+           color: #2a2a2a;
+       }
+       .yaoqiu{
+           font-size: 14px;
+           color: #2a2a2a;
+           text-indent: 1em;
+           line-height: 28px;
+           span{
+               padding-left: 5px;
+           }
+        }
+    }
+    /***********分割线***********/
+   .fengexian{
+       width: 100%;
+       height: 1px;
+       background: #d2d2d2;
+       margin-top: 10px;
+       margin-bottom: 60px;
+    }
+     /***********联系信息***********/
+    .lianxi{
+        background: #f4f4f4;
+        padding-top: 43px;
+        padding-bottom: 40px;
+        .title{
+            display: block;
+            margin-bottom: 38px;
+            font-size: 36px;
+            color: #2a2a2a;
+        }
+        .kuang{
+            width: 100%;
+            height: 100px;
+            background: #fff;
+            border:1px solid #e3e3e3;
+            margin-bottom: 20px;
+            .tu{
+                margin-top: 11px;
+                margin-left: 20px;
+                margin-right: 10px;
+                overflow: hidden;
+            }
+        }
+        .font_xinxi{
+            font-size: 16px;
+            color: #2a2a2a;
+            padding-top: 40px
+        }
+    }
+   
+    
+}

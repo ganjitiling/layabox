@@ -1,0 +1,167 @@
+@charset "utf-8";
+.web{
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    img{
+        width: 100%;
+        &:hover{
+            opacity: .6;
+        }
+    }
+}
+/*********************头部样式********************/
+header{
+    width: 100%;
+    background: #222222;
+}
+/*****************修改样式****************/
+.logo{
+    padding-top: 7px;
+}
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-default{
+    background-color: #222222;
+    border-color: transparent;
+}
+/******导航栏字体******/
+.navbar-default .navbar-nav > li > a{
+    font-size: 14px;
+    color: #9d9d9d;
+    &:hover{
+        color: #fff;
+    }
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    color: #fff;
+    background-color: #080808;
+}
+/******导航栏激活******/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, {
+    color: #fff;
+    background-color: #080808;
+}
+/******导航栏右侧菜单按钮******/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: #333333;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+/******导航栏下测线******/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color: #2c2a2a;
+}
+
+
+/******************设配******************/
+@media (min-width: 768px) and (max-width:992px){
+    .navbar-right{
+        margin-right: -20px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        font-size: 13px;
+    }
+    .nav > li > a{
+        padding: 15px 6px;
+    }
+}
+
+/********************底部样式********************/
+footer{
+    width: 100%;
+    padding-top: 35px;
+    background: #222222;
+    .left{
+        padding-bottom: 34px;
+    }
+    .font_b{
+        font-size: 14px;
+        color: #a1a3ab;
+        text-decoration:none;
+        padding-right: 13px;
+        line-height:26px; 
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .font_x{
+        font-size: 12px;
+        color: #a1a3ab;
+        margin: 0px;
+    }
+/*******右侧*******/
+    .wrap{
+        height: 55px;
+        a{
+            position: relative;
+            display: inline-block;
+            height: 38px;
+            width: 38px;
+            background: url(../images/footer.png) no-repeat scroll;
+            margin-right: 15px;
+            &:hover{
+                
+                .tu{
+                    display: block;
+                }
+            }
+        }
+        .email{
+            .em{
+                position: absolute;
+                top:-152px;
+                left: -50px;
+                width: 142px;
+                display: none;
+            }
+            &:hover{
+                background-position: 0px -39px;
+            }
+        }
+        //微信
+        .weixin{
+            background-position: -58px 0px;
+            .wx{
+                position: absolute;
+                width: 142px;
+                top: -152px;  
+                left: -50px;
+                display: none;
+            }
+            &:hover{
+                background-position: -58px -39px;
+            }
+        }
+        .qq{
+            background-position: -116px 0px;
+            .qq_1{
+                position: absolute;
+                width: 142px;
+                top: -152px;
+                left: -50px;
+                display: none;
+            }
+            &:hover{
+                background-position: -116px -39px;
+            }
+        }
+        
+        
+    }
+}
+@media(max-width:768px){
+    .wrap{
+        display: none;
+    }
+}
+/************动画************/
+.animated{
+    animation-duration: 1.5s;
+}

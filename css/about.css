@@ -1,0 +1,100 @@
+@charset "UTF-8";
+section {
+  width: 100%;
+  /***********大图***********/
+  /***********白色区域***********/
+  /***********绿色区域***********/
+  /***********招聘区域***********/
+  /***********分割线***********/
+  /***********联系信息***********/ }
+  section .datu {
+    width: 100%; }
+  section .white {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 15px; }
+    section .white .font_gongsi {
+      font-size: 36px;
+      color: #2a2a2a; }
+    section .white .title {
+      font-size: 21px;
+      color: #2a2a2a; }
+    section .white .main {
+      font-size: 14px;
+      color: #2a2a2a;
+      text-indent: 2em;
+      line-height: 28px; }
+  section .green {
+    background: #8cc11f;
+    padding-top: 115px;
+    padding-bottom: 80px; }
+    section .green .zhaoping {
+      font-size: 36px;
+      color: #fff; }
+    section .green .main_01 {
+      font-size: 14px;
+      line-height: 28px;
+      color: #fff; }
+    section .green .mail {
+      width: 219px;
+      height: 48px;
+      border-radius: 5px;
+      background: #fff;
+      color: #8cc11f;
+      font-size: 24px;
+      margin-bottom: 10px; }
+      section .green .mail:hover {
+        background-color: #e6e6e6;
+        border-color: #adadad; }
+  section .zhaoping {
+    width: 100%;
+    padding-top: 55px; }
+    section .zhaoping .left {
+      padding-left: 15px; }
+    section .zhaoping .bottom {
+      padding-bottom: 55px; }
+    section .zhaoping .position {
+      font-size: 26px;
+      color: #8cc11f;
+      margin-bottom: 30px; }
+    section .zhaoping .miaoshu {
+      font-size: 18px;
+      color: #2a2a2a; }
+    section .zhaoping .yaoqiu {
+      font-size: 14px;
+      color: #2a2a2a;
+      text-indent: 1em;
+      line-height: 28px; }
+      section .zhaoping .yaoqiu span {
+        padding-left: 5px; }
+  section .fengexian {
+    width: 100%;
+    height: 1px;
+    background: #d2d2d2;
+    margin-top: 10px;
+    margin-bottom: 60px; }
+  section .lianxi {
+    background: #f4f4f4;
+    padding-top: 43px;
+    padding-bottom: 40px; }
+    section .lianxi .title {
+      display: block;
+      margin-bottom: 38px;
+      font-size: 36px;
+      color: #2a2a2a; }
+    section .lianxi .kuang {
+      width: 100%;
+      height: 100px;
+      background: #fff;
+      border: 1px solid #e3e3e3;
+      margin-bottom: 20px; }
+      section .lianxi .kuang .tu {
+        margin-top: 11px;
+        margin-left: 20px;
+        margin-right: 10px;
+        overflow: hidden; }
+    section .lianxi .font_xinxi {
+      font-size: 16px;
+      color: #2a2a2a;
+      padding-top: 40px; }
